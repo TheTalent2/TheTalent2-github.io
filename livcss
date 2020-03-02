@@ -1,0 +1,43 @@
+@import url(https://fonts.googleapis.com/css?family=Bubblegum+Sans);
+h1{
+  font-family: 'Bubblegum Sans', cursive;;
+}
+
+button{
+     font-family: 'Bubblegum Sans', cursive;;
+}
+
+
+
+body {
+    background-color:lightblue
+    ;  
+  
+    
+}
+#grid,#pic{
+    display:grid;
+    
+    grid-template-columns: 64px 64px 64px 64px;
+    grid-gap: 0;
+    margin-bottom: 10px;
+   
+    
+    
+    
+}
+
+img{ width:64px
+}
+
+
+input{
+    
+    width:64px;
+    height:64px;
+}
+
+#pic{
+    margin-top:10px;
+    visibility:hidden;
+}
